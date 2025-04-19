@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="room.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="main-page">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <b><a class="navbar-brand" href="netflix.html">NETFLIX</a></b>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="netflix.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="netflix.html#tvshows">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="netflix.html#movies1">Movies</a>
+            </li>               
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg" alt="Avatar" width="32" height="32" class="avatar">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Cata</a></li>
+              <li><a class="dropdown-item" href="#">Santi</a></li>
+              <li><a class="dropdown-item" href="#">Other</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out of Netflix</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="card room-div">
+      <div class="overlay">
+        <img src="https://m.media-amazon.com/images/M/MV5BMTg5NTczMDg5MV5BMl5BanBnXkFtZTgwOTQ4NTUzNzE@._V1_.jpg" class="card-img" alt="Room">
+        <div class="card-img-overlay back">
+          <a href="netflix.html#movies1">
+            <button class="btn btn-dark">← Back</button>
+          </a>
+        </div>
+        <div class="card-img-overlay d-flex align-items-end">
+          <div class="room-card-title">
+            <h1 >Room</h1>
+            <div class="d-flex gap-2">
+              <button class="btn play">▶ Play</button>
+              <button class="btn btn-outline- rounded-circle add">🞢</button>
+              <button class="btn btn-outline rounded-circle like">👍</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+      
+      <div class="card-body ">
+        <div class="upper-div">
+          <div class="left">
+            <div class="data">
+              <div>2015</div>
+              <div>1h 58m</div>
+              <div>HD</div>
+            </div>
+            <div class="rating">
+              <a href="room.html#about">
+                <button type="button" class="btn btn-outline-light btn-sm button"style="cursor: pointer; z-index: 10; position: relative;">+16</button>
+              </a>  
+              <p>language, mature themes</p>
+            </div>
+            <div class="synopsis">
+              <p class="card-text">Held captive for years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.</p>
+            </div>
+            
+          </div>
+          <div class="right">
+            <p class="cast">
+              <span class="c">Cast:</span> Brie Larson, Jacob Tremblay, Sean Bridgers,<a href="room.html#about">
+                <i class="cast-more">more</i>
+              </a>   
+            </p>
+            <p class="genres">
+              <span class="g">Genres:</span> Psychological Drama, Thriller, Drama
+            </p>
+            <p class="movie-is">
+              <span class="t">This movie is:</span> Emotional, Intense
+            </p>
+          </div>
+        </div>
+        <h4>More Like This</h4>
+        <div class="row row-cols-1 row-cols-md-3 g-4 more-movies">
+          <div class="col">
+            <div class="card h-100 text-bg-dark">
+              <img src="https://m.media-amazon.com/images/S/pv-target-images/8d7d4f9224ca44d4bd7fc54e79ac7a66433ff88abb7a67dd413e68a70cd8ca3a.jpg" class="card-img-top" alt="glass castle">
+              <div class="card-body">
+                <div class="d-flex">
+                  <div>13+</div>
+                  <div class="hd">HD</div>
+                  <div>2017</div>
+                  <div class="gap-2">
+                    <button class="btn btn-outline rounded-circle add2">🞢</button>
+                  </div>  
+                </div>
+                <p class="cards-text">A young girl comes of age in a dysfunctional family of nonconformist nomads with a mother who's an eccentric artist and an alcoholic father.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-bg-dark">
+              <img src="https://m.media-amazon.com/images/S/pv-target-images/040701a39c69a59e781b8b57cf965d165c6a9832cc4021a1b62e84d65b72bd6d.jpg" class="card-img-top" alt="pursuit of happiness">
+              <div class="card-body">
+                <div class="d-flex">
+                  <div>13+</div>
+                  <div class="hd">HD</div>
+                  <div>2006</div>
+                  <div class="gap-2">
+                    <button class="btn btn-outline rounded-circle add2">🞢</button>
+                  </div>  
+                </div>
+                <p class="cards-text">A newly single father determined to lift himself and his son out of poverty Works his way up from the bottom at a stock brokerage firm.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-bg-dark">
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIHs8iqyv4Z-PygnBR8ViYivwaUOdlkaXY4Rn-wYyuAh2UfM9FFGzEdDYuDORdvJ0zjEg4uLzlQEVX1yShOmUH-031C_QmncLoCLu_2CDMI_s8wSMq1UZxuJo6MXoHELqcL-9L5JSHIJQ/s1016/CriticaPeliculaFragmentosdeUnaMujer.jpg" class="card-img-top" alt="pieces of a woman">
+              <div class="card-body">
+                <div class="d-flex">
+                  <div>16+</div>
+                  <div class="hd">HD</div>
+                  <div>2020</div>
+                  <div class="gap-2">
+                    <button class="btn btn-outline rounded-circle add2">🞢</button>
+                  </div>  
+                </div>
+                <p class="cards-text">Vanessa Kirby earned an Oscar nom for this drama about a home birth that features a 24-minute, single-take sequence that Variety declares "virtuoso."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="about">
+          <h4>About Room</h4>
+          <div class="d-flex justify-content-around director">
+            <p class="d">Director:</p>
+            <p>Lenny Abrahamson</p>
+          </div>
+          <div class="d-flex justify-content-around cast2">
+            <p class="c">Cast: </p>
+            <p> Brie Larson, Jacob Tremblay, Sean Bridgers, Joan Allen, William H. Macy, Emma Donoghue, Kate Beckinsale, Tom McCamus</p>
+          </div>
+          <div class="d-flex justify-content-around writer">
+            <p class="w">Writer: </p>
+            <p> Emma Donoghue</p>
+          </div>
+          <div class="d-flex justify-content-around genres2">
+            <p class="g">Genres:</p>
+            <p> Psychological Drama, Thriller, Drama, Independent Movies, Movies Based on Books</p>
+          </div>
+          <div class="d-flex justify-content-around this-movie">
+            <p class="t">This movies is:</p>
+            <p> Emotional, Intense, Tearjerker</p>
+          </div>
+          <div class="d-flex justify-content-space-between m-rating">
+            <p class="r">Maturity rating:</p>
+            <button type="button" class="btn btn-outline-light btn-sm button"style="cursor: pointer; z-index: 10; position: relative;">+16</button>
+            <p class="desc">language, mature themes </p>
+            <p>Recommended for ages 16 and up</p>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+  </div>             
+</body>
+</html>

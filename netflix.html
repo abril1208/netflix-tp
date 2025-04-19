@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="netflix.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="main-page">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <b><a class="navbar-brand" href="#">NETFLIX</a></b>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tvshows">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#movies1">Movies</a>
+            </li>               
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg" alt="Avatar" width="32" height="32" class="avatar">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Cata</a></li>
+              <li><a class="dropdown-item" href="#">Santi</a></li>
+              <li><a class="dropdown-item" href="#">Other</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out of Netflix</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS4msyZgyVVKEV7ZMwCPQHXw1KKLYkbCz-BCADNmEITlmzYwPadvQtHB3b_C3nunHwQKyI3E6hKr3jA2tT1y9llcXFAsIU7i39uLwbejkBwaA6ftnEa9hOpmh3fzxT-kaY-GQmSYm7f4hC2kBKKGP7H3aZHgySm0q0xMg-nJq57jiQFtrZSfnqmZJB_9Y/s1152/anora-critica.jpg" class="d-none d-sm-block w-100" alt="Anora-2024">
+            <img src="https://m.media-amazon.com/images/S/pv-target-images/2526d5c0c9cd0a0a39ce96eaea1946463f28664975928c9fe3e5ccbd425bdd4b.jpg" class="d-block d-sm-none w-100" alt="Anora-2024 mobile">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.tvguide.com/a/img/catalog/provider/2/2/2-c31b2b5f72f963e2adb291e608fa667f.jpg" class="d-none d-sm-block w-100" alt="Shrek-2-2004">
+          <img src="https://media.losandes.com.ar/adjuntos/368/migration/resizer/v2/IDBSNDXOUNFUHFA6PWF446JPRU.jpg?auth=e697d13eb1f50929fc7abed9e7cf58f196da812b9a20cf5ea7f8a8bf7dfe42d2&width=1200&height=1600" class="d-block d-sm-none w-100" alt="Shrek-2-2004 mobile">
+        </div>
+        <div class="carousel-item">
+          <img src="https://pauladeveraescritora.com/wp-content/uploads/2022/08/original.png" class="d-none d-sm-block w-100" alt="The Office (US)">
+          <img src="https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"  class="d-block d-sm-none w-100" alt="The Office (US) mobile">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.hollywoodreporter.com/wp-content/uploads/2023/12/MSDJUMA_EC051.jpg?w=1296&h=730&crop=1" class="d-none d-sm-block w-100" alt="Jumanji-1995">
+          <img src="https://m.media-amazon.com/images/M/MV5BYTFkMjFmODgtYzRiZi00NmQwLTliZWMtMzRhMWQ5ZmY3ZDExXkEyXkFqcGc@._V1_.jpg" class="d-block d-sm-none w-100" alt="Jumanji-1995 mobile">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="movies1" class="movie-title">
+      <h3>Movies</h3>
+    </div>
+   
+    <div id="movies"class="container-movies px-3">
+      <div class="d-flex overflow-auto gap-3 pb-2">
+        <div class="card" style="min-width: 230px;">
+          <img src="https://m.media-amazon.com/images/I/91jrKX9xjQL._AC_SL1500_.jpg" class="card-img-top" alt="Lalaland">
+          <div class="card-body">
+            <h5 class="card-title text-end">Lalaland</h5>  
+            <p class="card-text text-end">2016</p>  
+            <div class="d-flex justify-content-around text-muted">  
+              <div>13+</div>
+              <div>2h 8m</div>  
+              <div>HD</div>    
+            </div>  
+          </div>  
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+              <span class="badge text-bg-secondary">New!</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="Spider Man: Homecoming">
+          <div class="card-body">
+            <h5 class="card-title text-end">Spider Man: Homecoming</h5>
+            <p class="card-text text-end">2017</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>13+</div>
+              <div>2h 13m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+              <span class="badge text-bg-secondary">New!</span>
+            </div>
+          </div> 
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://www.dvdplanetstore.pk/wp-content/uploads/2017/12/Ai7JRZFEXXOX7rhgfeL861zZtWv.jpg" class="card-img-top" alt="The Muppets">
+          <div class="card-body">
+            <h5 class="card-title text-end">The Muppets</h5>
+            <p class="card-text text-end">2011</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>PG</div>
+              <div>1h 43m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <a href="room.html">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpXEcqfKmQasaJc1EEmH8aJVWBMtZL7klXh_xIrD0ZaeJLr0hfGb3YHG5nQ1LaCqOrWLiDBe1de4Xr4qM8cu5HLvFAYDE1vn1Cz5JiiYitNgprojhh-01MWSnXFSv9NXPLwiaFfpTyggUq/s1600/La+habitaci%25C3%25B3n_1.jpg" class="card-img-top" alt="Room">
+          </a> 
+          <div class="card-body">
+            <h5 class="card-title text-end">Room</h5>
+            <p class="card-text text-end">2015</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>16+</div>
+              <div>1h 58m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <a href="room.html">
+              <button class="btn btn-primary btn-sm">▶ Play</button>
+            </a>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://m.media-amazon.com/images/M/MV5BZjM2YTgzZTQtODc4OS00MDNmLTg0YWQtMmYzZmVmODM2OThhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="The Princess Diaries 2">
+          <div class="card-body">
+            <h5 class="card-title text-end">The Princess Diaries 2</h5>
+            <p class="card-text text-end">2004</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>PG</div>
+              <div>1h 53m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://pics.filmaffinity.com/Los_miserables-560563326-large.jpg" class="card-img-top" alt="Les Miserables">
+          <div class="card-body">
+            <h5 class="card-title text-end">Les Misèrables</h5>
+            <p class="card-text text-end">2012</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>13+</div>
+              <div>2h 38m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://m.media-amazon.com/images/M/MV5BOTQwYmRhNGQtODI2Mi00ZTRlLTk0Y2QtY2NkNjE1MGNhNTgwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="card-img-top" alt="10 things I hate about you">
+          <div class="card-body">
+            <h5 class="card-title text-end">10 things I hate about you</h5>
+            <p class="card-text text-end">1999</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>13+</div>
+              <div>1h 37m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Interstellar">
+          <div class="card-body">
+            <h5 class="card-title text-end">Interstellar</h5>
+            <p class="card-text text-end">2014</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>13+</div>
+              <div>2h 49m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+              <span class="badge text-bg-secondary">New!</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://pics.filmaffinity.com/Green_Book-162451488-large.jpg" class="card-img-top" alt="Green Book">
+          <div class="card-body">
+            <h5 class="card-title text-end">Green Book</h5>
+            <p class="card-text text-end">2018</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>13+</div>
+              <div>2h 10m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+              <span class="badge text-bg-secondary">New!</span>
+           </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://www.peacocktv.com/dam/growth/assets/Library/DespicableMe/despicable-me-description-image.jpg?downsize=1200:*&output-format=webp&output-quality=70" class="card-img-top" alt="Despicable me">
+          <div class="card-body">
+            <h5 class="card-title text-end">Despicable Me</h5>
+            <p class="card-text text-end">2010</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>PG</div>
+              <div>1h 35m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-outline-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/The_breakfastclub.jpg/640px-The_breakfastclub.jpg" class="card-img-top" alt="The Breakfast Club">
+          <div class="card-body">
+            <h5 class="card-title text-end">The Breakfast Club</h5>
+            <p class="card-text">1985</p>
+            <div class="d-flex justify-content-around text-muted">
+              <div>16+</div>
+              <div>1h 37m</div>
+              <div>HD</div>
+            </div>
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center">
+            <button class="btn btn-primary btn-sm">▶ Play</button>
+            <div class="d-flex align-items-center gap-2">
+              <button class="btn btn-primary btn-sm rounded-circle">+</button>
+              <button class="btn btn-outline-primary btn-sm rounded-circle">👍</button>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="min-width: 230px;">
+          <div class="card h-100 more-div">
+            <div class="card-body d-flex align-items-center justify-content-center">
+              <h5 class="card-title">More Movies</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div class="tv-title">
+      <h3>TV Shows</h3>
+    </div>
+    <div id="tvshows" class="container-tvshows px-3">
+      <div class="d-flex flex-nowrap overflow-auto gap-3 pb-2">
+        <div class="card flex-row" style="min-width: 450px; " >
+          <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/07/poster-friends.jpg?tf=1200x" class="img-fluid rounded-start" alt="Friends">
+          <div class="card-body">
+            <h5 class="card-title">Friends</h5>
+            <p class="card-text">Cast:</p>
+            <ul>
+              <li>• Courtnet Cox </li>
+              <li>• Matthew Perry</li>
+              <li>• Lisa Kudrow </li>
+              <li>• Matt Leblanc</li>
+              <li>• Jennifer Aniston</li>
+              <li>• David Schwimmer</li>
+            </ul>            
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">▶Play</button>
+            </div>
+          </div>         
+        </div>
+        <div class="card flex-row" style="min-width: 450px;" >
+          <img src="https://pics.filmaffinity.com/the_flash-334620503-large.jpg" class="img-fluid rounded-start" alt="The Flash">
+          <div class="card-body">
+            <h5 class="card-title">The Flash</h5>
+            <p class="card-text">Cast:</p>
+            <ul>
+              <li>• Grant Gustin</li>
+              <li>• Candice Patton</li>
+              <li>• Danielle Panabaker</li>
+              <li>• Carlos Valdés</li>
+              <li>• Tom Cavanagh</li>
+              <li>• Jesse L. Martin</li>
+            </ul>            
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">▶Play</button>
+            </div>
+          </div>     
+        </div>
+        <div class="card flex-row" style="min-width: 450px;" >
+          <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2023/05/gilmore-girls-poster.jpg" class="img-fluid rounded-start" alt="Gilmore Girls">
+          <div class="card-body">
+            <h5 class="card-title">Gilmore Girls</h5>
+            <p class="card-text">Cast:</p>
+            <ul>
+              <li>• Lauren Graham</li>
+              <li>• Alexis Bledel</li>
+              <li>• Kelly Bishop</li>
+              <li>• Scott Patterson</li>
+              <li>• Melissa McCarthy</li>
+              <li>• Edward Hermann</li>
+            </ul>            
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">▶Play</button>
+            </div>
+          </div> 
+        </div>
+        <div class="card flex-row" style="min-width: 450px;" >
+          <img src="https://m.media-amazon.com/images/M/MV5BMmRlNjQxNWQtMjk1OS00N2QxLTk0YWQtMzRhYjY5YTFhNjMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="img-fluid rounded-start" alt="The Queen´s Gambit">
+          <div class="card-body">
+            <h5 class="card-title">The Queen´s Gambit</h5>
+            <p class="card-text">Cast:</p>
+            <ul>
+              <li>• Anya Taylor-Joy</li>
+              <li>• Thomas Brodie-Sangster</li>
+              <li>• Harry Melling</li>
+              <li>• Bill Camp</li>
+              <li>• Marielle Heller</li>
+              <li>• Moses Ingram</li>
+            </ul>            
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">▶Play</button>
+            </div>
+          </div>
+        </div>
+        <div class="card flex-row" style="min-width: 450px;" >
+          <img src="https://es.web.img2.acsta.net/pictures/18/09/25/04/26/4113417.jpg" class="img-fluid rounded-start" alt="This Is Us">
+          <div class="card-body">
+            <h5 class="card-title">This is us</h5>
+            <p class="card-text">Cast:</p>
+            <ul>
+              <li>• Mandy Moore</li>
+              <li>• Milo Ventimiglia</li>
+              <li>• Chrissy Metz</li>
+              <li>• Sterling K. Brown</li>
+              <li>• Justin Hartley</li>
+              <li>• Susan Kelechi Watson</li>
+            </ul>            
+            <div class="d-grid gap-2 col-6 mx-auto">
+               <button class="btn btn-primary" type="button">▶Play</button>
+            </div>
+          </div>
+        </div>
+        <div class="card flex-row" style="min-width: 450px; " >
+          <img src="https://pics.filmaffinity.com/chernobyl-183665235-large.jpg" class="img-fluid rounded-start" alt="Chernobyl">
+          <div class="card-body">
+            <h5 class="card-title">Chernobyl</h5>
+            <p class="card-text">Cast:</p>
+            <ul>
+              <li>• Jared Harris</li>
+              <li>• Stellan Skarsgård </li>
+              <li>• Emily Watson</li>
+              <li>• Paul Ritter</li>
+              <li>• Jessie Buckley</li>
+              <li>• Adam Nagaitis</li>
+            </ul>            
+            <div class="d-grid gap-2 col-6 mx-auto d-flex align-content-end">
+              <button class="btn btn-primary" type="button">▶Play</button>
+            </div>
+          </div>
+        </div>
+        <div class="card flex-row ">
+          <div class="more-tv-div">
+            <div class="card-body ">
+              <h5 class="card-title-more">More TV Shows</h5>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>   
+    
+    <footer class="footer"> 
+      <div class="d-flex justify-content-around">
+        <p> © 2025 Netflixx, Taller de Internet I </p>        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" class=img-footer alt="ig">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" class="img-footer" alt="fb">
+      </div>
+    </footer>
+  </div>
+    
+</body>
+</html>

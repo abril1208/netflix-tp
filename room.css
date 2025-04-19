@@ -1,0 +1,240 @@
+.main-page{
+    background-color: rgb(30, 30, 30);  
+}
+
+.main-page .dropdown{
+    padding: 16px   
+}
+.avatar{
+    border-radius: 15%;
+}
+.room-div{
+    max-width: 800px;
+    background-color: black;
+    color:white;
+    margin-left: 24%;  
+    padding-top:5%;
+    
+}
+.overlay{
+    position:relative;
+}
+.back{
+    z-index: 1000;
+    display:flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+.back:hover{
+    cursor:pointer;
+}
+.room-card-title{
+    position:absolute;
+}
+
+.play{
+    background-color: white;
+    border-color: white;
+    color: black;
+    z-index:1000;
+}    
+.play:hover{
+    background-color:#d2d2d2 ;
+    color:black;
+    border-color:black;
+}
+.add{
+    border-color:#d2d2d2;
+    color: white;
+    border-width: 2px;
+    z-index:1000;
+}
+.add:hover{
+    border-color:white;
+    background-color: transparent;
+}
+.like{
+    border-color:#d2d2d2;
+    border-width: 2px;
+    z-index:1000;
+}
+.like:hover{
+    border-color:white;
+    background-color: transparent;
+}
+.upper-div{
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap:20px;
+} 
+.left{
+    padding-left: 10px;
+}
+.data{
+    width:160px;
+    display:flex;
+    justify-content: space-between;
+}
+.rating{
+    padding-top: 5px;
+    width:230px;
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.button{
+    height:25px;
+    width: 35px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+.cast-more:hover{
+    text-decoration: underline;
+}
+.synopsis{
+    width:500px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.right{
+    width:250px;
+    padding-right: 20px;
+    font-size: smaller;
+}
+.c{
+    color:rgb(142, 150, 157);
+    margin-right:5px;        
+}
+.g{
+    color:rgb(142, 150, 157);
+    margin-right:5px;
+}
+.t{
+    color:rgb(142, 150, 157);
+    margin-right:5px;
+}
+.card-img-top:hover{
+    cursor:pointer;
+}
+.more-movies{
+    padding-top: 1%;
+    padding-bottom: 7%;
+}
+.hd{
+    padding-right: 10px;
+    padding-left:10px;
+}
+.add2{
+    border-color:#d2d2d2;
+    color: white;
+    border-width: 2px;
+    margin-left: 100%;
+}
+.add2:hover{
+    border-color:white;
+    background-color: transparent;
+}
+.cards-text{
+    font-size: smaller;
+}
+.director{
+    width:205px;
+}
+.d{
+    color:rgb(142, 150, 157);
+    margin-right:5px; 
+}
+.cast2{
+    width:700px;
+}
+.writer{
+    width:177px;
+}
+.w{
+    color:rgb(142, 150, 157);
+    margin-right:5px;  
+}
+.genres2{
+    width: 650px;
+}
+.this-movie{
+    width:315px;
+}
+.m-rating{
+    width:620px;
+}
+.r{
+    color:rgb(142, 150, 157);
+    margin-right:5px;
+    margin-left: 0px;;
+}
+.desc{
+    padding-right: 20px;
+    padding-left:20px;
+}
+@media (max-width: 768px) {
+    .room-div{
+        margin-left: 0%;
+        padding-top:14%;
+    }
+    .back{
+        padding-top: 7%;
+    }
+    .upper-div {
+      flex-direction: column;
+    }
+  
+    .right{
+        width:100%;
+        padding-left: 2%;
+    }
+  
+    .synopsis {
+      width: 100%;
+      padding-bottom: 0px;
+      
+    }
+    .rating, .data {
+      width: 100%;
+      justify-content: flex-start;
+      gap: 15px;
+    }
+    
+    .director{
+        width:60%;
+    }
+    .cast2{
+        width:100%;
+    }
+    .writer{
+        width:52%;
+    }
+    .genres2{
+        width:100%;
+    }
+    .this-movie{
+        width:93%;
+    }
+    .m-rating{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }      
+     .desc{
+        padding-left: 3%;
+        padding-right:0%;
+     }   
+    
+  }
+  
